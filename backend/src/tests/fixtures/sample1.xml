@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INProfileResponse>
+  <Header><ReportDate>20240701</ReportDate><ReportTime>101530</ReportTime></Header>
+  <CreditProfileHeader>
+    <ReportDate>20240701</ReportDate><ReportTime>101530</ReportTime>
+    <Version>V2.4</Version><ReportNumber>RPT-1001</ReportNumber>
+  </CreditProfileHeader>
+
+  <Current_Application>
+    <Current_Application_Details>
+      <Current_Applicant_Details>
+        <First_Name>Aarav</First_Name><Last_Name>Sharma</Last_Name>
+        <MobilePhoneNumber>9876500011</MobilePhoneNumber>
+      </Current_Applicant_Details>
+    </Current_Application_Details>
+  </Current_Application>
+
+  <CAIS_Account>
+    <CAIS_Summary>
+      <Credit_Account>
+        <CreditAccountTotal>3</CreditAccountTotal>
+        <CreditAccountActive>2</CreditAccountActive>
+        <CreditAccountClosed>1</CreditAccountClosed>
+      </Credit_Account>
+      <Total_Outstanding_Balance>
+        <Outstanding_Balance_Secured>200000</Outstanding_Balance_Secured>
+        <Outstanding_Balance_UnSecured>50000</Outstanding_Balance_UnSecured>
+        <Outstanding_Balance_All>250000</Outstanding_Balance_All>
+      </Total_Outstanding_Balance>
+    </CAIS_Summary>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> hdfc bank</Subscriber_Name>
+      <Account_Number>HDFC-CC-7788</Account_Number>
+      <Portfolio_Type>R</Portfolio_Type><Account_Type>10</Account_Type>
+      <Account_Status>11</Account_Status>
+      <Current_Balance>30000</Current_Balance><Amount_Past_Due>0</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>ABCDE1234F</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> sbi</Subscriber_Name>
+      <Account_Number>SBI-PL-9922</Account_Number>
+      <Portfolio_Type>I</Portfolio_Type><Account_Type>51</Account_Type>
+      <Account_Status>11</Account_Status>
+      <Current_Balance>20000</Current_Balance><Amount_Past_Due>500</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>ABCDE1234F</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> icici</Subscriber_Name>
+      <Account_Number>ICICI-CC-2211</Account_Number>
+      <Portfolio_Type>R</Portfolio_Type><Account_Type>10</Account_Type>
+      <Account_Status>13</Account_Status>
+      <Current_Balance>0</Current_Balance><Amount_Past_Due>0</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>ABCDE1234F</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+  </CAIS_Account>
+
+  <TotalCAPS_Summary><TotalCAPSLast7Days>1</TotalCAPSLast7Days></TotalCAPS_Summary>
+  <SCORE><BureauScore>735</BureauScore></SCORE>
+</INProfileResponse>

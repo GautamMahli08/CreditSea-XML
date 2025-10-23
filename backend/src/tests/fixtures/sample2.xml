@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INProfileResponse>
+  <CreditProfileHeader><ReportDate>20240615</ReportDate><ReportTime>090000</ReportTime><ReportNumber>RPT-1002</ReportNumber></CreditProfileHeader>
+  <Current_Application>
+    <Current_Application_Details>
+      <Current_Applicant_Details>
+        <First_Name>Neha</First_Name><Last_Name>Verma</Last_Name>
+        <MobilePhoneNumber>9988776655</MobilePhoneNumber>
+      </Current_Applicant_Details>
+    </Current_Application_Details>
+  </Current_Application>
+
+  <CAIS_Account>
+    <CAIS_Summary>
+      <Credit_Account>
+        <CreditAccountTotal>2</CreditAccountTotal>
+        <CreditAccountActive>2</CreditAccountActive>
+        <CreditAccountClosed>0</CreditAccountClosed>
+      </Credit_Account>
+      <Total_Outstanding_Balance>
+        <Outstanding_Balance_Secured>0</Outstanding_Balance_Secured>
+        <Outstanding_Balance_UnSecured>120000</Outstanding_Balance_UnSecured>
+        <Outstanding_Balance_All>120000</Outstanding_Balance_All>
+      </Total_Outstanding_Balance>
+    </CAIS_Summary>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> kotak</Subscriber_Name>
+      <Account_Number>KOTAK-CC-1234</Account_Number>
+      <Portfolio_Type>R</Portfolio_Type><Account_Type>10</Account_Type>
+      <Account_Status>11</Account_Status>
+      <Current_Balance>70000</Current_Balance><Amount_Past_Due>0</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>AAAPV0000K</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> axis</Subscriber_Name>
+      <Account_Number>AXIS-PL-9988</Account_Number>
+      <Portfolio_Type>I</Portfolio_Type><Account_Type>52</Account_Type>
+      <Account_Status>11</Account_Status>
+      <Current_Balance>50000</Current_Balance><Amount_Past_Due>1200</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>AAAPV0000K</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+  </CAIS_Account>
+
+  <CAPS><CAPS_Summary><CAPSLast7Days>3</CAPSLast7Days></CAPS_Summary></CAPS>
+  <SCORE><BureauScore>689</BureauScore></SCORE>
+</INProfileResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditReport>
+  <GeneratedOn>2025-10-15</GeneratedOn>
+  <ReferenceNumber>REF-001</ReferenceNumber>
+  <Applicant>
+    <Name><FullName>Gautam Mahli</FullName></Name>
+    <Contacts><Mobile>+91-9999999999</Mobile></Contacts>
+    <Identifiers><PAN>ABCDE1234F</PAN></Identifiers>
+  </Applicant>
+  <Scores><Score type="EXP">768</Score></Scores>
+  <Accounts>
+    <Summary>
+      <Total>3</Total><Active>2</Active><Closed>1</Closed>
+    </Summary>
+    <Account>
+      <AccountType>Credit Card</AccountType>
+      <BankName>HDFC Bank</BankName>
+      <AccountNumber>1234 5678 9000 1111</AccountNumber>
+      <Addresses>
+        <Address><Line1>12 MG Road</Line1><City>Bengaluru</City><State>KA</State><Pincode>560001</Pincode></Address>
+      </Addresses>
+      <AmountOverdue>0</AmountOverdue>
+      <CurrentBalance>15000</CurrentBalance>
+      <Status>OPEN</Status>
+      <SecuredFlag>false</SecuredFlag>
+    </Account>
+    <Account>
+      <AccountType>Auto Loan</AccountType>
+      <BankName>SBI</BankName>
+      <AccountNumber>AU-77889900</AccountNumber>
+      <AmountOverdue>0</AmountOverdue>
+      <CurrentBalance>250000</CurrentBalance>
+      <Status>OPEN</Status>
+      <SecuredFlag>true</SecuredFlag>
+    </Account>
+    <Account>
+      <AccountType>Credit Card</AccountType>
+      <BankName>ICICI</BankName>
+      <AccountNumber>4444 3333 2222 1111</AccountNumber>
+      <AmountOverdue>1000</AmountOverdue>
+      <CurrentBalance>5000</CurrentBalance>
+      <Status>CLOSED</Status>
+      <SecuredFlag>false</SecuredFlag>
+    </Account>
+  </Accounts>
+  <Enquiries>
+    <Enquiry><Date>2025-10-14</Date></Enquiry>
+    <Enquiry><Date>2025-10-01</Date></Enquiry>
+  </Enquiries>
+</CreditReport>

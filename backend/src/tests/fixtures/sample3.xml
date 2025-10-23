@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INProfileResponse>
+  <CreditProfileHeader><ReportDate>20240510</ReportDate><ReportTime>141500</ReportTime><ReportNumber>RPT-1003</ReportNumber></CreditProfileHeader>
+
+  <Current_Application>
+    <Current_Application_Details>
+      <Current_Applicant_Details>
+        <First_Name>Rohit</First_Name><Last_Name>Singh</Last_Name>
+        <MobilePhoneNumber>9800000001</MobilePhoneNumber>
+      </Current_Applicant_Details>
+    </Current_Application_Details>
+  </Current_Application>
+
+  <CAIS_Account>
+    <CAIS_Summary>
+      <Credit_Account>
+        <CreditAccountTotal>1</CreditAccountTotal>
+        <CreditAccountActive>1</CreditAccountActive>
+        <CreditAccountClosed>0</CreditAccountClosed>
+      </Credit_Account>
+      <Total_Outstanding_Balance>
+        <Outstanding_Balance_Secured>450000</Outstanding_Balance_Secured>
+        <Outstanding_Balance_UnSecured>0</Outstanding_Balance_UnSecured>
+        <Outstanding_Balance_All>450000</Outstanding_Balance_All>
+      </Total_Outstanding_Balance>
+    </CAIS_Summary>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> sbi</Subscriber_Name>
+      <Account_Number>SBI-AUTO-5522</Account_Number>
+      <Portfolio_Type>I</Portfolio_Type><Account_Type>51</Account_Type>
+      <Account_Status>11</Account_Status>
+      <Current_Balance>450000</Current_Balance><Amount_Past_Due>0</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>BDEFS1234G</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+  </CAIS_Account>
+
+  <TotalCAPS_Summary><TotalCAPSLast7Days>0</TotalCAPSLast7Days></TotalCAPS_Summary>
+  <SCORE><BureauScore>712</BureauScore></SCORE>
+</INProfileResponse>

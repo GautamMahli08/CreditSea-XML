@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INProfileResponse>
+  <Header><ReportDate>20240401</ReportDate><ReportTime>083000</ReportTime></Header>
+  <CreditProfileHeader><ReportNumber>RPT-1004</ReportNumber></CreditProfileHeader>
+  <Current_Application>
+    <Current_Application_Details>
+      <Current_Applicant_Details>
+        <First_Name>Anita</First_Name><Last_Name>Kulkarni</Last_Name>
+        <MobilePhoneNumber>9900112233</MobilePhoneNumber>
+      </Current_Applicant_Details>
+    </Current_Application_Details>
+  </Current_Application>
+
+  <CAIS_Account>
+    <CAIS_Summary>
+      <Credit_Account>
+        <CreditAccountTotal>0</CreditAccountTotal>
+        <CreditAccountActive>0</CreditAccountActive>
+        <CreditAccountClosed>0</CreditAccountClosed>
+      </Credit_Account>
+      <Total_Outstanding_Balance>
+        <Outstanding_Balance_Secured>0</Outstanding_Balance_Secured>
+        <Outstanding_Balance_UnSecured>0</Outstanding_Balance_UnSecured>
+        <Outstanding_Balance_All>0</Outstanding_Balance_All>
+      </Total_Outstanding_Balance>
+    </CAIS_Summary>
+  </CAIS_Account>
+
+  <TotalCAPS_Summary><TotalCAPSLast7Days>0</TotalCAPSLast7Days></TotalCAPS_Summary>
+  <SCORE><BureauScore>680</BureauScore></SCORE>
+</INProfileResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INProfileResponse>
+  <CreditProfileHeader>
+    <ReportDate>20240720</ReportDate><ReportTime>190500</ReportTime>
+    <ReportNumber>RPT-1005</ReportNumber>
+  </CreditProfileHeader>
+
+  <Current_Application>
+    <Current_Application_Details>
+      <Current_Applicant_Details>
+        <First_Name>Vikram</First_Name><Last_Name>Menon</Last_Name>
+        <MobilePhoneNumber>9811112222</MobilePhoneNumber>
+      </Current_Applicant_Details>
+    </Current_Application_Details>
+  </Current_Application>
+
+  <CAIS_Account>
+    <CAIS_Summary>
+      <Credit_Account>
+        <CreditAccountTotal>3</CreditAccountTotal>
+        <CreditAccountActive>1</CreditAccountActive>
+        <CreditAccountClosed>1</CreditAccountClosed>
+      </Credit_Account>
+      <Total_Outstanding_Balance>
+        <Outstanding_Balance_Secured>100000</Outstanding_Balance_Secured>
+        <Outstanding_Balance_UnSecured>90000</Outstanding_Balance_UnSecured>
+        <Outstanding_Balance_All>190000</Outstanding_Balance_All>
+      </Total_Outstanding_Balance>
+    </CAIS_Summary>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> icici</Subscriber_Name>
+      <Account_Number>ICICI-CC-5555</Account_Number>
+      <Portfolio_Type>R</Portfolio_Type><Account_Type>10</Account_Type>
+      <Account_Status>11</Account_Status>
+      <Current_Balance>40000</Current_Balance><Amount_Past_Due>0</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>CKLPQ1234Z</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> hdfc</Subscriber_Name>
+      <Account_Number>HDFC-PL-2222</Account_Number>
+      <Portfolio_Type>I</Portfolio_Type><Account_Type>52</Account_Type>
+      <Account_Status>13</Account_Status>
+      <Current_Balance>0</Current_Balance><Amount_Past_Due>0</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>CKLPQ1234Z</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name> sbi</Subscriber_Name>
+      <Account_Number>SBI-OD-7777</Account_Number>
+      <Portfolio_Type>I</Portfolio_Type><Account_Type>51</Account_Type>
+      <Account_Status>53</Account_Status>
+      <Current_Balance>150000</Current_Balance><Amount_Past_Due>9000</Amount_Past_Due>
+      <CAIS_Holder_ID_Details><Income_TAX_PAN>CKLPQ1234Z</Income_TAX_PAN></CAIS_Holder_ID_Details>
+    </CAIS_Account_DETAILS>
+  </CAIS_Account>
+
+  <CAPS><CAPS_Summary><CAPSLast7Days>2</CAPSLast7Days></CAPS_Summary></CAPS>
+  <SCORE><BureauScore>621</BureauScore></SCORE>
+</INProfileResponse>

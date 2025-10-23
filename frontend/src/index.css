@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg1:#f8fbff; --bg2:#f2f7ff; }
+
+body {
+  background-image:
+    radial-gradient(1200px 600px at 80% -10%, rgba(13,110,253,.18), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(122,91,255,.14), transparent 60%),
+    linear-gradient(180deg, var(--bg1), var(--bg2));
+}
+
+/* subtle grid texture */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(8,58,138,.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(8,58,138,.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
